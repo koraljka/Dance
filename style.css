@@ -76,7 +76,7 @@ body
     #photo #leftPhoto
     {
         display: inline-block;
-        background-image: url('http://dentistfingersbird.kset.org/images/img01.jpg');
+        background-image: url('images/img01.jpg');
         background-clip: border-box;
         background-size: cover;
         background-position: center;
