@@ -9,15 +9,19 @@
     var i = 0;
     picsRight[0] = "http://svengrbec.github.io/images/img02.jpg";
     picsRight[1] = "http://svengrbec.github.io/images/img04.jpg";
+	picsRight[2] = "http://svengrbec.github.io/images/img06.jpg";
+	
     picsLeft[0] = "http://svengrbec.github.io/images/img01.jpg";
     picsLeft[1] = "http://svengrbec.github.io/images/img03.jpg";
+	picsLeft[2] = "http://svengrbec.github.io/images/img05.jpg";
+	
 
     $("#rightArrow").click(function () {
 
         if (navigator.product == 'Gecko') {
-            for (i = 0; i <= 2; i++) {
+            for (i = 0; i <= 3; i++) {
                 if ($("#rightPhoto").css("background-image") == 'url("' + picsRight[i] + '")') {
-                    if (i == 1) {
+                    if (i == 2) {
                         $("#rightPhoto").css("background-image", 'url("' + picsRight[0] + '")');
                         break;
                     }
@@ -27,9 +31,9 @@
             }
         }
 
-        for (i = 0; i <= 2; i++) {  
+        for (i = 0; i <= 3; i++) {  
             if ($("#rightPhoto").css("background-image") == 'url(' + picsRight[i] + ')') {
-                if (i == 1) {
+                if (i == 2) {
                     $("#rightPhoto").css("background-image", 'url(' + picsRight[0] + ')');
                     break;
                 }
@@ -43,9 +47,9 @@
     $("#leftArrow").click(function () {
 
         if (navigator.product == 'Gecko') {
-            for (i = 0; i <= 2; i++) {
+            for (i = 0; i <= 3; i++) {
                 if ($("#leftPhoto").css("background-image") == 'url("' + picsLeft[i] + '")') {
-                    if (i == 1) {
+                    if (i == 2) {
                         $("#leftPhoto").css("background-image", 'url("' + picsLeft[0] + '")');
                         break;
                     }
@@ -55,9 +59,9 @@
             }
         }
 
-        for (i = 0; i <= 2; i++) {
+        for (i = 0; i <= 3; i++) {
             if ($("#leftPhoto").css("background-image") == 'url(' + picsLeft[i] + ')') {
-                if (i == 1) {
+                if (i == 2) {
                     $("#leftPhoto").css("background-image", 'url(' + picsLeft[0] + ')');
                     break;
                 }
