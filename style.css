@@ -76,7 +76,7 @@ body
     #photo #leftPhoto
     {
         display: inline-block;
-        background-image: url('images/img01.jpg');
+        background-image: url('http://svengrbec.github.io/images/img01.jpg');
         background-clip: border-box;
         background-size: cover;
         background-position: center;
@@ -87,7 +87,7 @@ body
     #photo #rightPhoto
     {
         display: inline-block;
-        background-image: url('http://dentistfingersbird.kset.org/images/img02.jpg');
+        background-image: url('http://svengrbec.github.io/images/img02.jpg');
         background-clip: border-box;
         background-size: cover;
         background-position: center;
@@ -122,7 +122,7 @@ body
     #bio #leftBioPhoto
     {
         display: inline-block;
-        background-image: url("http://dentistfingersbird.kset.org/images/biO.jpg");
+        background-image: url("http://svengrbec.github.io/images/biO.jpg");
         background-clip: border-box;
         background-size: cover;
         background-position: center;

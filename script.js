@@ -7,10 +7,10 @@
     //GALLERY
     var picsRight = [], picsLeft = [];
     var i = 0;
-    picsRight[0] = "http://dentistfingersbird.kset.org/images/img02.jpg";
-    picsRight[1] = "http://dentistfingersbird.kset.org/images/img04.jpg";
-    picsLeft[0] = "http://dentistfingersbird.kset.org/images/img01.jpg";
-    picsLeft[1] = "http://dentistfingersbird.kset.org/images/img03.jpg";
+    picsRight[0] = "http://svengrbec.github.io/images/img02.jpg";
+    picsRight[1] = "http://svengrbec.github.io/images/img04.jpg";
+    picsLeft[0] = "http://svengrbec.github.io/images/img01.jpg";
+    picsLeft[1] = "http://svengrbec.github.io/images/img03.jpg";
 
     $("#rightArrow").click(function () {
 
