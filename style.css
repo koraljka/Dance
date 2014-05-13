@@ -216,23 +216,7 @@ body
                 color: #fff;
             }
 
-    #footer #twitter
-    {
-        position: absolute;
-        right: 70px;
-        top: 8px;
-        width: 30px;
-        height: 30px;
-    }
 
-        #footer #twitter a:link
-        {
-            display: block;
-            width: 30px;
-            height: 30px;
-            text-decoration: none;
-            background-image: url("images/sprite_twitter.png");
-        }
 
     #footer #facebook
     {
