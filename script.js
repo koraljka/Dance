@@ -18,6 +18,7 @@
     picsLeft[1] = "http://i.imgur.com/ZtJ7j7J.jpg";
 	picsLeft[2] = "http://i.imgur.com/bNVHoQL.jpg";
 	picsLeft[3] = "http://i.imgur.com/5Xxi9mU.jpg";
+	picsLeft[4] = "http://i.imgur.com/dwHQohl.jpg";
 	
 	
 
@@ -52,9 +53,9 @@
     $("#leftArrow").click(function () {
 
         if (navigator.product == 'Gecko') {
-            for (i = 0; i <= 4; i++) {
+            for (i = 0; i <= 5; i++) {
                 if ($("#leftPhoto").css("background-image") == 'url("' + picsLeft[i] + '")') {
-                    if (i == 3) {
+                    if (i == 4) {
                         $("#leftPhoto").css("background-image", 'url("' + picsLeft[0] + '")');
                         break;
                     }
@@ -64,9 +65,9 @@
             }
         }
 
-        for (i = 0; i <= 4; i++) {
+        for (i = 0; i <= 5; i++) {
             if ($("#leftPhoto").css("background-image") == 'url(' + picsLeft[i] + ')') {
-                if (i == 3) {
+                if (i == 4) {
                     $("#leftPhoto").css("background-image", 'url(' + picsLeft[0] + ')');
                     break;
                 }
