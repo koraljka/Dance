@@ -12,6 +12,7 @@
 	picsRight[2] = "http://i.imgur.com/PkBQBiR.jpg";
 	picsRight[3] = "http://i.imgur.com/VtLcCtB.jpg";
 	picsRight[4] = "http://i.imgur.com/11IPzJQ.jpg";
+	picsRight[5] = "http://i.imgur.com/ByNF9tQ.jpg";
 	
 	
     picsLeft[0] = "http://i.imgur.com/jHnDSh4.jpg";
@@ -19,15 +20,16 @@
 	picsLeft[2] = "http://i.imgur.com/bNVHoQL.jpg";
 	picsLeft[3] = "http://i.imgur.com/5Xxi9mU.jpg";
 	picsLeft[4] = "http://i.imgur.com/dwHQohl.jpg";
+	picsLeft[5] = "http://i.imgur.com/dlfVjNB.jpg";
 	
 	
 
     $("#rightArrow").click(function () {
 
         if (navigator.product == 'Gecko') {
-            for (i = 0; i <= 5; i++) {
+            for (i = 0; i <= 6; i++) {
                 if ($("#rightPhoto").css("background-image") == 'url("' + picsRight[i] + '")') {
-                    if (i == 4) {
+                    if (i == 5) {
                         $("#rightPhoto").css("background-image", 'url("' + picsRight[0] + '")');
                         break;
                     }
@@ -37,9 +39,9 @@
             }
         }
 
-        for (i = 0; i <= 5; i++) {  
+        for (i = 0; i <= 6; i++) {  
             if ($("#rightPhoto").css("background-image") == 'url(' + picsRight[i] + ')') {
-                if (i == 4) {
+                if (i == 5) {
                     $("#rightPhoto").css("background-image", 'url(' + picsRight[0] + ')');
                     break;
                 }
@@ -53,9 +55,9 @@
     $("#leftArrow").click(function () {
 
         if (navigator.product == 'Gecko') {
-            for (i = 0; i <= 5; i++) {
+            for (i = 0; i <= 6; i++) {
                 if ($("#leftPhoto").css("background-image") == 'url("' + picsLeft[i] + '")') {
-                    if (i == 4) {
+                    if (i == 5) {
                         $("#leftPhoto").css("background-image", 'url("' + picsLeft[0] + '")');
                         break;
                     }
@@ -65,9 +67,9 @@
             }
         }
 
-        for (i = 0; i <= 5; i++) {
+        for (i = 0; i <= 6; i++) {
             if ($("#leftPhoto").css("background-image") == 'url(' + picsLeft[i] + ')') {
-                if (i == 4) {
+                if (i == 5) {
                     $("#leftPhoto").css("background-image", 'url(' + picsLeft[0] + ')');
                     break;
                 }
