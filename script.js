@@ -23,9 +23,9 @@
     $("#rightArrow").click(function () {
 
         if (navigator.product == 'Gecko') {
-            for (i = 0; i <= 5; i++) {
+            for (i = 0; i <= 4; i++) {
                 if ($("#rightPhoto").css("background-image") == 'url("' + picsRight[i] + '")') {
-                    if (i == 4) {
+                    if (i == 3) {
                         $("#rightPhoto").css("background-image", 'url("' + picsRight[0] + '")');
                         break;
                     }
@@ -35,9 +35,9 @@
             }
         }
 
-        for (i = 0; i <= 5; i++) {  
+        for (i = 0; i <= 4; i++) {  
             if ($("#rightPhoto").css("background-image") == 'url(' + picsRight[i] + ')') {
-                if (i == 4) {
+                if (i == 3) {
                     $("#rightPhoto").css("background-image", 'url(' + picsRight[0] + ')');
                     break;
                 }
