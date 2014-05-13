@@ -22,9 +22,9 @@
     $("#rightArrow").click(function () {
 
         if (navigator.product == 'Gecko') {
-            for (i = 0; i <= 4; i++) {
+            for (i = 0; i <= 3; i++) {
                 if ($("#rightPhoto").css("background-image") == 'url("' + picsRight[i] + '")') {
-                    if (i == 3) {
+                    if (i == 2) {
                         $("#rightPhoto").css("background-image", 'url("' + picsRight[0] + '")');
                         break;
                     }
@@ -34,9 +34,9 @@
             }
         }
 
-        for (i = 0; i <= 4; i++) {  
+        for (i = 0; i <= 3; i++) {  
             if ($("#rightPhoto").css("background-image") == 'url(' + picsRight[i] + ')') {
-                if (i == 3) {
+                if (i == 2) {
                     $("#rightPhoto").css("background-image", 'url(' + picsRight[0] + ')');
                     break;
                 }
@@ -50,9 +50,9 @@
     $("#leftArrow").click(function () {
 
         if (navigator.product == 'Gecko') {
-            for (i = 0; i <= 4; i++) {
+            for (i = 0; i <= 3; i++) {
                 if ($("#leftPhoto").css("background-image") == 'url("' + picsLeft[i] + '")') {
-                    if (i == 3) {
+                    if (i == 2) {
                         $("#leftPhoto").css("background-image", 'url("' + picsLeft[0] + '")');
                         break;
                     }
@@ -62,9 +62,9 @@
             }
         }
 
-        for (i = 0; i <= 4; i++) {
+        for (i = 0; i <= 3; i++) {
             if ($("#leftPhoto").css("background-image") == 'url(' + picsLeft[i] + ')') {
-                if (i == 3) {
+                if (i == 2) {
                     $("#leftPhoto").css("background-image", 'url(' + picsLeft[0] + ')');
                     break;
                 }
