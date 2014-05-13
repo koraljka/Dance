@@ -7,16 +7,16 @@
     //GALLERY
     var picsRight = [], picsLeft = [];
     var i = 0;
-    picsRight[0] = "";
-    picsRight[1] = "";
-	picsRight[2] = "";
+    picsRight[0] = "http://i.imgur.com/s9JUl4u.jpg";
+    picsRight[1] = "http://i.imgur.com/CPJcZWo.jpg";
+	picsRight[2] = "http://i.imgur.com/PkBQBiR.jpg";
 	picsRight[3] = "";
 	picsRight[4] = "";
 	
 	
-    picsLeft[0] = "";
-    picsLeft[1] = "";
-	picsLeft[2] = "";
+    picsLeft[0] = "http://i.imgur.com/jHnDSh4.jpg";
+    picsLeft[1] = "http://i.imgur.com/ZtJ7j7J.jpg";
+	picsLeft[2] = "http://i.imgur.com/bNVHoQL.jpg";
 	picsLeft[3] = "";
 	
 
