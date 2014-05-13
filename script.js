@@ -54,7 +54,7 @@
         if (navigator.product == 'Gecko') {
             for (i = 0; i <= 4; i++) {
                 if ($("#leftPhoto").css("background-image") == 'url("' + picsLeft[i] + '")') {
-                    if (i == 4) {
+                    if (i == 3) {
                         $("#leftPhoto").css("background-image", 'url("' + picsLeft[0] + '")');
                         break;
                     }
