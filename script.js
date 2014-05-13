@@ -7,17 +7,17 @@
     //GALLERY
     var picsRight = [], picsLeft = [];
     var i = 0;
-    picsRight[0] = "http://svengrbec.github.io/images/img02.jpg";
-    picsRight[1] = "http://svengrbec.github.io/images/img04.jpg";
-	picsRight[2] = "http://svengrbec.github.io/images/img06.jpg";
-	picsRight[3] = "http://svengrbec.github.io/images/img08.jpg";
-	picsRight[4] = "http://svengrbec.github.io/images/img10.jpg";
+    picsRight[0] = "";
+    picsRight[1] = "";
+	picsRight[2] = "";
+	picsRight[3] = "";
+	picsRight[4] = "";
 	
 	
-    picsLeft[0] = "http://svengrbec.github.io/images/img01.jpg";
-    picsLeft[1] = "http://svengrbec.github.io/images/img03.jpg";
-	picsLeft[2] = "http://svengrbec.github.io/images/img05.jpg";
-	picsLeft[3] = "http://svengrbec.github.io/images/img07.jpg";
+    picsLeft[0] = "";
+    picsLeft[1] = "";
+	picsLeft[2] = "";
+	picsLeft[3] = "";
 	
 
     $("#rightArrow").click(function () {
